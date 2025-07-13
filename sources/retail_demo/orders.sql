@@ -1,1 +1,0 @@
-select * from retail_demo.retail_sales_dataset
