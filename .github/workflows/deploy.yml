@@ -24,7 +24,7 @@ jobs:
         env:
           BASE_PATH: '/${{ github.event.repository.name }}'
           ## Add and uncomment any environment variables here
-          EVIDENCE_SOURCE__ecommerce_demo__project_id: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
+          EVIDENCE_SOURCE__ecommerce_demo__project_id: ${{ secrets.EVIDENCE_SOURCE__ECOMMERCE_DEMO__PROJECT_ID }}
           EVIDENCE_SOURCE__ecommerce_demo__client_email: ${{ secrets.EVIDENCE_SOURCE__ECOMMERCE_DEMO__CLIENT_EMAIL }}
           EVIDENCE_SOURCE__ecommerce_demo__private_key: ${{ secrets.EVIDENCE_SOURCE__ECOMMERCE_DEMO__PRIVATE_KEY }}
         run: |
